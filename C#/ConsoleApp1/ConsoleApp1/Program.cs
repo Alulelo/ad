@@ -6,10 +6,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string phrase = "Hello World";
-
-           Console.WriteLine( phrase );
-           Console.ReadLine();
+            Console.Write("Enter Your name:");
+            string name = Console.ReadLine();
+            Console.Write("Enter Your age:");
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " Your age is  " + age);
+            Console.ReadLine();
         }
     }
 }
