@@ -6,40 +6,21 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.Write("Write a no1:");
-            decimal num1 = Convert.ToDecimal(Console.ReadLine());
-
-            Console.WriteLine("Operators are as: +(Addition) -(Subtraction) *(Multiplication) /(Divide) ");
-
-            Console.Write("Enter a operator:");
-            string hh = Console.ReadLine();
-
-            Console.Write("Write a no2:");
-            decimal num2 = Convert.ToDecimal(Console.ReadLine());
-
-            if (hh == "+") 
+            int num = 1;
+            while (num <= 100)
             {
-                Console.Write(num1 + num2);
-            }else if (hh == "-") 
-            {
-                Console.Write(num1 - num2);
-            }else if (hh == "*")
-            {
-                Console.Write(num1 * num2 );
+                Console.WriteLine("|" + num );
+                num++;
+                
             }
-            else if(hh== "/")
-            {
-                Console.Write(num1 / num2);
-            }
-            else
-            {
-                Console.WriteLine("Enter a valid operator U dummy");
-            }
-
-            Console.ReadLine();
-
 
         }
+
+
+
+
+
+        
    
         
       
